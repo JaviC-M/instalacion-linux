@@ -36,7 +36,9 @@ sudo apt install -y tree || true
 	&& sudo apt update \
 	&& sudo apt install gh -y
 
+# copiar docfiles
 cp bashrc ~
+cp code.settings.json ~/.config/Code/User/settings.json
 
 # Nerd fonts
 sudo apt install -y fonts-firacode || true
