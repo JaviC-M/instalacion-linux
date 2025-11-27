@@ -36,7 +36,7 @@ sudo apt install -y tree || true
 	&& sudo apt update \
 	&& sudo apt install gh -y
 
-cp .bashrc ~
+cp bashrc ~
 
 # Nerd fonts
 sudo apt install -y fonts-firacode || true
